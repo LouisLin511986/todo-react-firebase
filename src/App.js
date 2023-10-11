@@ -6,6 +6,7 @@ import { db } from "./firebase";
 import firebase from "firebase/compat/app";
 import "firebase/compat/auth";
 import "firebase/compat/firestore";
+// npm install @material-ui/core @material-ui/icons --legacy-peer-deps
 
 function App() {
   const [todos, setTodos] = useState([]);
